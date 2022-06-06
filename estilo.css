@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(raleway-bold.woff2);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Source Sans 3";
+    src: url(source-sans-pro.woff2);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(open-sans.woff2);
+}
+
+body {
+    background: url(fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table {
+    width: 65%;
+    margin: 100px auto;
+    border-collapse: collapse;
+    border-radius: 8px;
+    background: url(fundoblur.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 15px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+table img {
+    width: 24px;
+}
+
+th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: start;
+    padding: 7px 10px;
+}
+
+td {
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 6px 10px;
+}
+
+h2, h3, h5, input[type="submit"], th {
+    font-family: Raleway;
+}
+
+.disclaimer {
+    display: none;
+}
+
+.formulario {
+    width: 400px;
+    margin: 50px auto 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    background: url(fundoblur.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.formulario h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 7px;
+}
+
+.formulario h5 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+}
+
+.inicio {
+    width: 600px;
+    margin: 50px auto 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    background: url(fundoblur.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.inicio h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 7px;
+}
+
+.inicio h3 {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.inicio p {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 10px 0;
+    font-family: "Source Sans 3";
+}
+
+.cardGui, .cardGu {
+    display: flex;
+    margin: 20px 0 15px 0;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.cardGui img, .cardGu img {
+    height: 120px;
+    width: 120px;
+}
+
+.cardGu {
+    justify-content: flex-end;
+}
+
+.espaco {
+    padding: 0 7px;
+}
+
+.sociais {
+    display: flex;
+    flex-direction: row;
+}
+
+.sociais a {
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Raleway";
+    font-weight: bold;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.30), 0 8px 12px rgba(0,0,0,0.22);
+}
+
+.sociais a:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.bio {
+    margin: 5px 0;
+}
+
+.index, .forms, .listas{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 5px 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.30), 0 8px 12px rgba(0,0,0,0.22);
+}
+
+.paginaAtual {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    padding: 5px 8px;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 3px solid rgb(60, 133, 228);
+}
+
+.paginaBg {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+.modelo {
+    margin: 15px 0 20px 0;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.30), 0 8px 12px rgba(0,0,0,0.22);
+}
+
+#gui {
+    border-radius: 8px 0 0 8px;
+    text-align: start;
+}
+
+#gu{
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    background: url(fundoblur.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.30), 0 8px 12px rgba(0,0,0,0.22);
+}
+
+#topo label {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 8px;
+    margin: 7px 0;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    transition: ease-in-out 150ms;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.30), 0 8px 12px rgba(0,0,0,0.22);
+}
+
+input[type=submit] {
+    padding: 5px 8px;
+    margin: 18px 0 5px 0;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: ease-in-out 150ms;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.30), 0 8px 12px rgba(0,0,0,0.22);
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin: 7px 0;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 6px;
+    transition: ease-in-out 150ms;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.30), 0 8px 12px rgba(0,0,0,0.22);
+}
+
+input[type=text]:hover, select:hover, input[type=submit]:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+input[type=text]:focus, select:focus {
+    box-shadow: 0 15px 38px rgba(0,0,0,0.30), 0 12px 15px rgba(0,0,0,0.22);
+    background: rgba(255, 255, 255, 0.8);
+}
